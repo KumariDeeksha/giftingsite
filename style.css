@@ -114,22 +114,77 @@
     height: 30vw;
     width: 30vw;
     margin-left: 13vw;
+    margin-top: 3vh;
 }
 #img1 h3{
     display: flex;
     justify-content: center;
 }
+#img1 h5{
+    display: flex;
+   margin-left: 14vw;
+}
+#img2 h5{
+    display: flex;
+   margin-left: 14vw;
+}
 #img2{
     /* border: 2px solid red; */
    display:inline-block;
-
+  margin-top: 3vh;
 }
 #img2 img{
     height: 30vw;
     width: 30vw;
     margin-left: 13vw;
+    margin-top: 3vh;
 }
 #img2 h3{
     display: flex;
     justify-content: center;
+}
+#img1 button{
+    background-color: black;
+    color: white;
+    margin-left: 15vw;
+    padding: 1vh;
+    margin-top: 10px;
+}
+#img2 button{
+    background-color: black;
+    color: white;
+    margin-left: 15vw;
+    padding: 1vh;
+    margin-top: 10px;
+}
+.earth{
+    background-color: lightblue;
+    height: 60vh;
+    width: 100%;
+    margin-top: 15vh;
+    z-index: -1;
+}
+.earth img{
+    height:60vh;
+    width: 45%;
+}
+.earth h1{
+    color: black;
+    font-weight: bold;
+    font-size:4rem;
+    margin-left:50vw;
+    margin-top: -20vw;
+}
+.earth h2{
+    color: black;
+    font-weight: bold;
+    margin-left: 50vw;
+    margin-top: 2vh;
+}
+.earth button{
+    color: white;
+    background-color: black;
+    margin-left: 58vw;
+    padding: 1vh;
+    margin-top: 2vh;
 }
