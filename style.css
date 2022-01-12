@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+}
+.regalo{
+    padding: 2vw;
+    margin-left: 2vw;
+}
+.search{
+       display:flex;
+       flex-direction: row;
+       margin-left: 50vw;
+       margin-top: -13vh;
+      
+       /* border: 2px solid red; */
+       padding-left:1px;
+       border-bottom:2px solid rgb(112, 109, 109);
+}
+.search h3{
+    color: gray;
+    /* border: 2px solid red; */
+    margin-left: 1.5vw;
+}
+.search h2{
+    /* border: 1px solid red; */
+    padding:0.5px;
+    margin-left: 3vw
+    
+}
+.search img{
+    height: 2.5vw;
+     /* border: 1px solid red; */
+     padding:0.5px;
+     margin-left: 1.5vw;
+}
+.screen{
+    margin-top: 1vh;
+    background-color: rgb(250, 183, 171);
+    /* background:url(/image/Group\ 36.png); */
+    height: 80vh;
+    width: 100%;
+    z-index: -1;
+}
+.screen img{
+    display: flex;
+    float: right;
+    height:70vh;
+    width: 50%;
+}
+.screen h1{
+    color: black;
+    font-weight: bold;
+    font-size:4rem;
+    margin-left:1vw;
+    margin-top: 2vw;
+}
+.btn button{
+    background-color: black;
+    color: white;
+    padding: 0.5vw;
+    margin-left: 2vw;
+}
