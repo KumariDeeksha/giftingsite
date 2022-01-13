@@ -59,12 +59,14 @@
     color: white;
     padding: 0.5vw;
     margin-left: 3vw;
-    margin-top: 0.5vw;
+    margin-top: 1vw;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .screen h3{
     padding: 0.5vw;
     margin-left: 1.5vw;
-    margin-top:2vw;
+    margin-top:0.5vw;
 }
 .mid h2{
     display: flex;
@@ -119,19 +121,24 @@
 #img1 h3{
     display: flex;
     justify-content: center;
+    margin-left:-10vw;
 }
 #img1 h5{
     display: flex;
    margin-left: 14vw;
+   font-size: 1em;
 }
 #img2 h5{
     display: flex;
    margin-left: 14vw;
+   font-size: 1em;
+   margin-right: 2vw;
 }
 #img2{
     /* border: 2px solid red; */
    display:inline-block;
   margin-top: 3vh;
+  margin-right: 1vw;
 }
 #img2 img{
     height: 30vw;
