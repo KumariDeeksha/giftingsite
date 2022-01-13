@@ -188,3 +188,32 @@
     padding: 1vh;
     margin-top: 2vh;
 }
+.yellow{
+    background-color: rgb(245, 245, 173);
+    height: 60vh;
+    width: 86%;
+    margin-left: 8vw;
+    margin-top: 7vh;
+} 
+.yellow h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    padding: 9vh;
+}
+.yellow img{
+    display: flex;
+    margin-left: 40vw;
+    margin-top: -2vh;
+}
+.yellow h4{
+    display: flex;
+    margin-left: 25vw;
+    margin-top: 2vh;
+}
+.yellow h3{
+    font-weight: bold;
+    margin-left: 42vw;
+ 
+    font-size: 4rem;
+}
